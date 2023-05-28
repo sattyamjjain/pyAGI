@@ -3,4 +3,5 @@ openai
 pydantic
 streamlit
 pandas
-numpy
+black
+colorlog
