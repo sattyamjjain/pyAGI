@@ -8,7 +8,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name="pyAGI",
-    version="1.0.3",
+    version="1.0.4",
     author="Sattyam Jain",
     author_email="sattyamjain96@gmail.com",
     description="Autonomous agent for building the python app using OpenAI with AGI concept",

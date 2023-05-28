@@ -1,22 +1,28 @@
 # pyAGI
-**pyAGI** is a Python package designed to create an autonomous agent for your Python application. It interfaces with OpenAI models and uses a chain of prompts to guide the AI in generating a variety of content, including application descriptions, architecture outlines, user experience flows, and even example code. This is accomplished using the langchain framework for creating chains of language models.
+**pyAGI** is a Python package that functions as an autonomous agent for your Python application. By interfacing with OpenAI models, it utilizes a sequence of prompts to instruct the AI in generating various outputs such as application descriptions, architecture outlines, user experience flows, and even code samples. All these are achieved using the **langchain** framework to construct chains of language models.
 
 ## Features
 1. Supports several OpenAI models, including a range of GPT-3 and Davinci models.
 2. Provides functionality for generating:
+   1. Application descriptions
+      1. Software architecture outlines
+      2. User experience flows
+      3. Code flow descriptions
+      4. Coding steps
+      5. Application code
 
-## Application descriptions
-1. Software architecture outlines
-2. User experience flows
-3. Code flow descriptions
-4. Coding steps
-5. Application code
+## Setup
+To use pyAGI, you need to have an [OpenAI account](https://www.openai.com/) and obtain your API key. Once you have your OpenAI API key, set it as an environment variable OPENAI_API_KEY in your system.
+
+`export OPENAI_API_KEY='your-api-key-here'`
 
 ## Installation
 
-To install pyAGI (https://pypi.org/project/pyAGI/), use pip:
+To install pyAGI, use pip:
 
 `pip install pyAGI`
+
+The package is available at PyPI pyAGI (https://pypi.org/project/pyAGI/).
 
 ## Usage
 After installing, you can use pyAGI to generate content for your application as follows:
@@ -51,7 +57,7 @@ For example:
 - "text-babbage-001",
 - "text-ada-001"
 
-### Upcoming models:
+### Upcoming models (https://openai.com/waitlist/gpt-4-api):
 
 - "gpt-4",
 - "gpt-4-0314",
