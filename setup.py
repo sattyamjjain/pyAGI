@@ -3,12 +3,17 @@ from setuptools import setup, find_packages
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name="pyAGI",
-    version="1.0.2",
+    version="1.0.3",
     author="Sattyam Jain",
     author_email="sattyamjain96@gmail.com",
     description="Autonomous agent for building the python app using OpenAI with AGI concept",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url="https://github.com/sattyamjjain/pyAGI",
     packages=find_packages(),
     classifiers=[

@@ -14,12 +14,24 @@
 
 ## Installation
 
-To install pyAGI, use pip:
+To install pyAGI (https://pypi.org/project/pyAGI/), use pip:
 
 `pip install pyAGI`
 
 ## Usage
 After installing, you can use pyAGI to generate content for your application as follows:
+
+```
+from pyAGI.pyagi import PyAGI
+
+Create a PyAGI instance with a selected OpenAI model
+py_agi = PyAGI.create_llm_chain(selected_model="text-davinci-003")
+
+# Run the PyAGI instance with the objective
+py_agi({"objective": "Your Objective", "selected_model": "text-davinci-003"})
+```
+
+# Usage without installing the pip package
 
 `python main.py "Objective of your app" "OpenAI Model"`
 
