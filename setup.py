@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="pyAGI",
-    version="1.0.1",
+    version="1.0.2",
     author="Sattyam Jain",
     author_email="sattyamjain96@gmail.com",
     description="Autonomous agent for building the python app using OpenAI with AGI concept",
