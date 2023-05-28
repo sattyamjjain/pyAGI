@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from utils import setup_logger, log_header
+from pyAGI.utils import setup_logger, log_header
 
 logger = setup_logger(__name__)
 
